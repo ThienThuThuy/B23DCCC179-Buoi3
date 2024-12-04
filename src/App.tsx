@@ -47,8 +47,7 @@ const App: React.FC = () => {
           {/* Nội dung chính */}
           <div className="main-content">
             <Routes>
-              <Route path="/" element={<HuongDan />} />
-              <Route path="/huong-dan" element={<HuongDan />} />
+              <Route path="/" element={<ProductsPage />} />
               <Route path="/products" element={<ProductsPage />} />
               <Route path="/add-product" element={<AddProductPage />} />
               <Route path="/edit-product/:id" element={<EditProductPage />} />
